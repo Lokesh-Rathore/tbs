@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0!important;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;}
+p{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    width: 80px;
+}
+
+.request-btn {
+    background-color: transparent;
+    color: #ccc ;
+    border: 1px solid #ccc ;
+    border-radius: 30px !important;
+}
+
+.request-btn:hover {
+    border: 1px solid white !important;
+    background: white !important;
+    color: black !important;
+}
+
+.hero {
+    height: 100vh;
+    /* background: #ccc!important; */
+}
+
+
+.video-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.video-container-2{
+    position: relative;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,0%);
+    width: 150vw;
+    height: 160vh;
+    overflow: hidden !important;
+}
+.h-160{
+    height: 160vh;
+}
+.video-head {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fs-h{
+    font-size: 80px;
+    font-weight: bolder!important;
+}
+
+.px-20{
+    padding-left: 200px!important;
+    padding-right: 200px!important;
+}
+
+.video-sub{
+    width: 70%;
+    border-radius: 50px;
+}
+
+.img-100{
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+  }
+.scrolltop{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    z-index: 5;
+    cursor: pointer;
+    display: none;
+}
+
+.scrolltop:hover{
+    background-color: #55a6c4;
+}
+.caption{
+    width: 50%;
+}
+
+.heading{
+    width: 500px;
+}
+
+.section{
+    width: 80%;
+}
+
+@media (max-width: 1100px) { 
+    .fs-h{
+        font-size: 50px;
+    }
+    .caption{
+        width: 80%;
+    }
+    .section{
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .video-sub{
+        width: 90%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 572px) {
+    .fs-h{
+        font-size: 40px;
+    }
+    .video-container-2{
+        height: 140vh;
+    }
+    .h-160{
+        height: 140vh;
+    }
+    .heading{
+        width: 100%;
+    }
+    .px-20{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .section{
+        width: 98%;
+    }
+}
+
